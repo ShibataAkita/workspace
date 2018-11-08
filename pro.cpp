@@ -16,8 +16,8 @@ void drawBox(RotatedRect, Mat);//画出矩形
 
 int main()
 {
-	VideoCapture capture("video.avi");
-	VideoWriter writer("videopro.avi",CV_FOURCC('D','I','V','X'),30,Size(640,480),true);
+	VideoCapture capture("../video.avi");
+	VideoWriter writer("../videopro.avi",CV_FOURCC('D','I','V','X'),30,Size(640,480),true);
 	Mat src_img;
 	vector<vector<Point> > contour;//轮廓
 	vector<Vec4i>hierarchy;
