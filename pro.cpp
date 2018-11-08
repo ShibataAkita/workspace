@@ -65,9 +65,9 @@ int main()
 					drawBox(vRlt[nI], src_img);
 				}
 
-			imshow("video",src_img);
+			//imshow("video",src_img);
 			writer<<src_img;
-			waitKey(1);
+			//waitKey(1);
 			vEllipse.clear();
 			vRlt.clear();
 		}
